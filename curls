@@ -1,0 +1,28 @@
+curl -X 'POST' \
+  'http://0.0.0.0:8000/compareHands' \
+  -H 'accept: application/json' \
+  -d '[{
+		"card_1": "js",
+		"card_2": "ac",
+		"card_3": "2c",
+		"card_5": "jd",
+		"card_4": "4c",
+		"id": 50
+	},
+	{
+		"card_1": "2s",
+		"card_2": "3c",
+		"card_3": "4c",
+		"card_5": "5d",
+		"card_4": "6c",
+		"id": 51
+	},
+	{
+		"card_1": "2c",
+		"card_2": "3c",
+		"card_3": "4c",
+		"card_5": "5c",
+		"card_4": "6c",
+		"id": 51
+	}
+]'
